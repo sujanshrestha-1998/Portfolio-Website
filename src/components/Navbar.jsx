@@ -23,13 +23,13 @@ const Navbar = () => {
 
   return (
     <div>
-      <nav className="fixed left-0 right-0 top-4 z-50">
+      <nav className="fixed left-0 right-0 lg:top-4 z-50">
         {/* Desktop Menu */}
         <div className="mx-auto hidden max-w-2xl items-center justify-center rounded-lg bg-black/20 py-3 backdrop-blur-lg lg:flex">
           <div className="flex justify-between gap-8">
             <div>
               <a href="#" className="font-semibold">
-                sujanshrestha
+                Sujan Shrestha
               </a>
             </div>
             <div>
@@ -59,11 +59,11 @@ const Navbar = () => {
           </div>
         </div>
         {/* Mobile View */}
-        <div className=" px-10 rounded-lg backdrop-blur-md lg:hidden">
+        <div className=" px-10 py-5 lg:rounded-lg backdrop-blur-md lg:hidden">
           <div className="flex items-center justify-between">
             <div>
               <a href="#" className="font-semibold">
-                sujanshrestha
+                Sujan Shrestha
               </a>
             </div>
             <div className="flex items-center">
@@ -80,7 +80,7 @@ const Navbar = () => {
             </div>
           </div>
           {isMobileMenuOpen && (
-            <ul className="ml-4 mt-4 flex flex-col gap-4 backdrop-blur-md">
+            <ul className="ml-4 mt-4 flex flex-col gap-4">
               <li>
                 {" "}
                 <a href="" className="block w-full text-xl font-semibold">
