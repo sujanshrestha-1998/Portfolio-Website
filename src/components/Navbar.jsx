@@ -49,10 +49,10 @@ const Navbar = () => {
               </ul>
             </div>
             <div className="flex items-center gap-4">
-              <a href="">
+              <a href="https://github.com/sujanshrestha-1998">
                 <img src="/images/Github.png" alt="" width={20} />
               </a>
-              <a href="">
+              <a href="https://www.linkedin.com/in/sujanshrestha10/">
                 <img src="/images/LinkedIn.png" alt="" width={20} />
               </a>
             </div>

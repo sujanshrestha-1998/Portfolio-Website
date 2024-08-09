@@ -17,8 +17,8 @@ const HeroSection = () => {
           <h1 className="text-5xl font-semibold uppercase tracking-wide md:text-7xl">
             Sujan Shrestha
           </h1>
-          <p className="pt-2 font-semibold">
-            A front-end developer with a flair for graphics designing
+          <p className="pt-2 ">
+            A front-end developer with a flair for UI/UX designing
           </p>
         </div>
       </div>

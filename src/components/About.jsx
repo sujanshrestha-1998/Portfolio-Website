@@ -6,15 +6,15 @@ const About = () => {
       <div className="container mx-auto relative" id="about">
         {/* The new div that will appear on the left of the image */}
         <div className="absolute left-0 top-1/2 transform -translate-y-1/2 lg:-translate-y-36 z-10 flex items-center px-4 sm:px-8 md:px-16 lg:pl-96">
-          <div className="max-w-full lg:max-w-md">
-            <h2 className="text-xl sm:text-2xl font-semibold text-black">
+          <div className="max-w-full px-6 lg:max-w-md">
+            <h2 className="text-base sm:text-lg md:text-xl font-semibold text-black">
               About Me
             </h2>
-            <p className="mt-2 text-gray-500 text-sm sm:text-base lg:w-80">
+            <p className="mt-2 text-xs sm:text-sm md:text-base text-gray-500 lg:w-80">
               I am Sujan Shrestha, a front-end developer with a passion for
               creating interactive and responsive user interfaces.
             </p>
-            <p className="mt-2 text-black text-sm sm:text-base lg:w-96">
+            <p className="mt-2 text-xs sm:text-sm md:text-base text-black lg:w-96">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores
               eligendi cumque veritatis delectus magnam placeat quisquam illum
               atque deleniti aut. Eligendi, fuga temporibus quam provident earum
